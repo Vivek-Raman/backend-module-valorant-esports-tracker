@@ -9,15 +9,14 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>dev.vivekraman</groupId>
-	<artifactId>backend-module-template</artifactId> <!-- TODO: update parent artifact ID -->
-<!--	<version>1.0-rc1</version>-->
-	<version>1.4-rc1</version> <!-- TODO: remove this and uncomment the above line -->
+	<artifactId>backend-module-valorant-esports-tracker</artifactId>
+	<version>1.0-rc1</version>
 	<packaging>pom</packaging>
-	<name>backend-module-template</name> <!-- TODO: update parent artifact name -->
-	<description>Template backend module to be used with monolith-platform</description> <!-- TODO: update description -->
+	<name>backend-module-valorant-esports-tracker</name>
+	<description></description> <!-- TODO: update description -->
 	<modules>
-		<module>template</module> <!-- TODO: update module name -->
-		<module>module-app</module> <!-- TODO: update module app name -->
+		<module>valorant-esports-tracker</module>
+		<module>valorant-esports-tracker-app</module>
 	</modules>
 	<properties>
 		<java.version>17</java.version>
@@ -61,7 +60,7 @@
 			</dependency>
 			<dependency>
 				<groupId>dev.vivekraman</groupId>
-				<artifactId>template</artifactId> <!-- TODO: update module artifact ID -->
+				<artifactId>valorant-esports-tracker</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 		</dependencies>
@@ -79,7 +78,7 @@
 		<repository>
 			<id>github</id>
 			<name>GitHub - Vivek Raman - Apache Maven Packages</name> <!-- TODO: update ~/m2/settings.xml to include the new repository -->
-			<url>https://maven.pkg.github.com/Vivek-Raman/backend-module-template</url> <!-- TODO: update repository ID -->
+			<url>https://maven.pkg.github.com/Vivek-Raman/backend-module-valorant-esports-tracker</url>
 		</repository>
 	</distributionManagement>
 </project>
